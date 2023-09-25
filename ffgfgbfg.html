@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>People Data</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 90%; /* Wider table */
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #000080; /* Dark blue border */
+            text-align: left;
+            padding: 8px;
+            font-weight: bold; /* Bold font */
+            font-family: 'Breda Extra Bold', sans-serif; /* Breda Extra Bold font */
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Center the header text */
+        .header {
+            text-align: center;
+            font-family: 'Breda Extra Bold', sans-serif;
+            font-size: 22px; /* Font size 22 */
+            font-weight: bold; /* Bold font */
+            background-color: white; /* White background */
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Black shadow */
+            padding: 10px; /* Add padding for spacing */
+        }
+
+        /* Centered text in the second row */
+        .centered-text {
+            text-align: center;
+            font-size: 18px; /* Font size 18 */
+            font-weight: bold; /* Bold font */
+            font-family: 'Breda Extra Bold', sans-serif; /* Breda Extra Bold font */
+        }
+
+        /* Roll number box in the fourth row */
+        .roll-number-box {
+            text-align: center;
+        }
+
+        /* Search and Reset buttons */
+        .button {
+            background-color: #000080; /* Dark blue background */
+            color: white; /* White text */
+            padding: 8px 16px; /* Adjust padding for button size */
+            margin: 5px; /* Add margin for spacing */
+            font-family: 'Breda Extra Bold', sans-serif; /* Breda Extra Bold font */
+            font-weight: bold; /* Bold font */
+        }
+
+        /* Make rows thinner and columns wider */
+        table th, table td {
+            padding: 6px; /* Adjust padding for thinner rows */
+        }
+
+        /* Add dark blue borders to every row and column */
+        table tr, table th, table td {
+            border: 1px solid #000080; /* Dark blue border */
+        }
+    </style>
+    <!-- Add a link to the custom font -->
+    <link href="https://fonts.googleapis.com/css2?family=Breda:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Centered Header -->
+    <h1 class="header">BOARD OF INTERMEDIATE & SECONDARY EDUCATION PESHAWAR</h1>
+
+    <!-- Second Row -->
+    <div class="centered-text">RESULT - SSC ANNUAL-I EXAMINATION 2023 (1ST & 2ND YEAR)</div>
+
+    <!-- Third Row -->
+    <div class="roll-number-box">
+        Roll Number:
+        <input type="text" placeholder="Enter Roll Number" style="width: 200px;"> <!-- A little bigger roll number box -->
+    </div>
+
+    <!-- Fourth Row with Buttons -->
+    <div class="roll-number-box">
+        <button class="button">Search Result</button>
+        <button class="button">Reset</button>
+    </div>
+
+    <!-- Add 2 rows of space -->
+    <br><br>
+
+    <!-- Table with two columns and 7 rows -->
+    <table>
+        <tr>
+            <th style="width: 35%;">Column 1</th> <!-- Wider columns -->
+            <th style="width: 65%;">Column 2</th>
+        </tr>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 1</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <td>Row 3</td>
+            <td>Row 3</td>
+        </tr>
+        <tr>
+            <td>Row 4</td>
+            <td>Row 4</td>
+        </tr>
+        <tr>
+            <td>Row 5</td>
+            <td>Row 5</td>
+        </tr>
+        <tr>
+            <td>Row 6</td>
+            <td>Row 6</td>
+        </tr>
+        <tr>
+            <td>Row 7</td>
+            <td>Row 7</td>
+        </tr>
+    </table>
+</body>
+</html>
